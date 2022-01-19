@@ -1,0 +1,19 @@
+{
+  "name": "tiles-api",
+  "version": "1.0.0",
+  "description": "Server for generating images and metadata for Tiles.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "peripheralist",
+  "license": "ISC",
+  "dependencies": {
+    "@svgdotjs/svg.js": "^3.1.1",
+    "ethers": "^5.4.0",
+    "express": "^4.17.1",
+    "sharp": "^0.28.3",
+    "svgdom": "^0.1.8"
+  }
+}
